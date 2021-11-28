@@ -10,7 +10,7 @@ oh_ve_Veliciny = 23 # uved cele cislo napr pro 6.oh odpovida 5:00, proto zadam 5
 
 # FROM'Veliciny.................xlsx'
 #veliciny_cplex = pdg_from_libuska('libuska2_report.xlsx', oh_ve_Veliciny)
-
+breakpoint()
 veliciny_std = pdg_from_veliciny('6851365_211021_Veliciny PP_1.xlsx', oh_ve_Veliciny)
 veliciny_cplex = pdg_from_veliciny('6851365ISOP_211021-211022_Veliciny PP.xlsx', oh_ve_Veliciny)
 # .......................................................................................................................................................................

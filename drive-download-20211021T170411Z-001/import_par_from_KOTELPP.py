@@ -2,9 +2,12 @@ import pandas as pd
 #from zaznam import Zaznam
 from decimal import Decimal
 import pdb
-kotel = pd.read_csv('KOTEL PP.LST',engine='python', delimiter=r"\t",   header =[0],skiprows=None, index_col = [0,1])
+breakpoint()
+kotel = pd.read_csv('KOTEL_PP_utf8.txt',engine='python', delimiter=r"\t",   header =[0],skiprows=None, index_col = [0,1])
+#kotel = pd.read_csv('KOTEL_PP.LST',engine='python', delimiter=r"\t",   header =[0],skiprows=None, index_col = [0,1])
 #cols = kotel.columns
 #inxs = kotel.index
+breakpoint()
 datetime_index = ( '21.10.2021 16:00',  '21.10.2021 18:00')
 
 def import_par_from_KOTELPP(inx, kotel, **par):
